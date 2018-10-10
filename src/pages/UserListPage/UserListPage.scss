@@ -1,0 +1,32 @@
+.user-list-page {
+    &__main-container {
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+        align-items: stretch;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+
+    &__users-table-container {
+        overflow: auto;
+        flex-grow: 1;
+    }
+
+    &__pager-container {
+        flex: none;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    &__button-container {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    &__addUser-ico {
+        margin-right: 6px;
+    }
+}

@@ -1,0 +1,17 @@
+.balance-editor {
+	.errorField {
+		overflow: hidden;
+		color: red;
+		border-color: red;
+		display: block;
+	}
+
+	&__current {
+		font-size: 22px;
+		margin-bottom: 15px;
+	}
+
+	&__current-label {
+		margin-right: 5px;
+	}
+}

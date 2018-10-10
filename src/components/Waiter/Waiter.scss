@@ -1,0 +1,19 @@
+.waiter {
+    @mixin waiter {
+        position: absolute;
+        z-index: 1051;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    &__back {
+        @include waiter();
+        opacity: 0.6;
+        background-color: #fff;
+    }
+    &__img {
+        @include waiter();
+        background: url(Waiter.gif) no-repeat center center;
+    }
+}

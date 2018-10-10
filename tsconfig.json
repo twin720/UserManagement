@@ -1,0 +1,44 @@
+{
+    "compilerOptions": {
+        "outDir": "./build/",
+        "allowJs": false,
+        "alwaysStrict": true,
+        "experimentalDecorators": true,
+        "jsx": "react",
+        "module": "commonjs",
+        "noImplicitAny": false,
+        "preserveConstEnums": true,
+        "removeComments": true,
+        "sourceMap": false,
+        "target": "es5",
+        "emitDecoratorMetadata": true,
+        "allowSyntheticDefaultImports": true,
+        "declaration": false,
+        "importHelpers": true, // importing helper functions from tslib
+        "noEmitHelpers": true, // disable emitting inline helper functions
+        "noFallthroughCasesInSwitch": true,
+        "pretty": true,
+        "lib": [
+            "dom",
+            "es2016",
+            "es2017.object"
+        ],
+        "moduleResolution": "node",
+        "rootDir": "src",
+        "typeRoots": [
+            "./node_modules/@types/"
+        ]
+    },
+    "compileOnSave": true,
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "build",
+        "webpack",
+    ],
+    "types": [
+        "typePatches"
+    ]
+}

@@ -1,0 +1,17 @@
+.users-table {
+	font-size: 13px;
+
+	.users-table__cell {
+		padding-top: 7px;
+		padding-bottom: 7px;
+	}
+
+	&.table-hover > tbody > tr:hover {
+		background-color: rgb(215, 226, 255);
+	}
+
+	&__row {
+		cursor: pointer;
+	}
+
+}

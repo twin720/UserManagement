@@ -1,0 +1,17 @@
+.user-information {
+	font-size: 16px;
+
+	&__key-cell {
+		text-align: right;
+
+	}
+
+	&__label {
+		margin-right: 15px;
+	}
+
+	&__button {
+		margin-top: 17px;
+		width: 120px;
+	}
+}
